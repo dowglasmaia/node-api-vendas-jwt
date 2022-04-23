@@ -25,3 +25,9 @@ Iniciamos configurando o objeto `paths` do `tsconfig.json`, que permite criar um
   "@shared/*": ["src/shared/*"]
 }
 ```
+
+```add express
+yarn add express cors express-async-errors
+yarn add -D @types/express @types/cors
+```
+
