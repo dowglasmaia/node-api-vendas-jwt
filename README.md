@@ -32,6 +32,8 @@ yarn add -D @types/express @types/cors
 ```
 
 * https://typeorm.io/
+### Migrations com ORM
+* https://typeorm.io/migrations
 
 * ### Instalando o postgres via docker:
 `docker run --name postgres -e POSTGRES_PASSWORD=<sua_senha> -p 54321:5432 -d postgres`
