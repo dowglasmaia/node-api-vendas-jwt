@@ -31,10 +31,13 @@ yarn add express cors express-async-errors
 yarn add -D @types/express @types/cors
 ```
 
-* https://typeorm.io/
-### Migrations com ORM
-* https://typeorm.io/migrations
+* ### https://typeorm.io/
+* ###  https://typeorm.io/entities
+* ### https://typeorm.io/migrations
 
+---
 * ### Instalando o postgres via docker:
 `docker run --name postgres -e POSTGRES_PASSWORD=<sua_senha> -p 54321:5432 -d postgres`
+
+---
 
