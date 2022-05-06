@@ -6,8 +6,8 @@ import {
 	UpdateDateColumn,
 } from 'typeorm';
 
-@Entity('products')
-class Products {
+@Entity('product')
+class Product {
 	@PrimaryGeneratedColumn('uuid')
 	id: string;
 
@@ -30,4 +30,4 @@ class Products {
 	@UpdateDateColumn()
 	updated_at: Date;
 }
-export default Products;
+export default Product;
