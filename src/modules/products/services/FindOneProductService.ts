@@ -1,7 +1,7 @@
 import AppError from '@shared/errors/app-error';
 import { getCustomRepository } from 'typeorm';
 import Product from '../type-orm/entities/Product';
-import { ProductsRepository } from '../type-orm/repositories/ProductsRepository';
+import ProductRepository from '../type-orm/repositories/ProductsRepository';
 
 interface IRequest {
   id: string;
@@ -9,7 +9,7 @@ interface IRequest {
 
 class FindOneProductService {
   public async execute({ id }: IRequest): Promise<Product> {
-    const productsRepository = getCustomRepository(ProductsRepository);
+    const productsRepository = getCustomRepository(ProductRepository);
 
     const product = await productsRepository.findOne(id);
     if (!product) {

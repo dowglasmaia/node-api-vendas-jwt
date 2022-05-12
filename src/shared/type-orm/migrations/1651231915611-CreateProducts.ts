@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { MigrationInterface, QueryRunner, Table } from 'typeorm';
 
 export class CreateProducts1651231915611 implements MigrationInterface {
@@ -5,7 +6,7 @@ export class CreateProducts1651231915611 implements MigrationInterface {
     await queryRunner.query('CREATE EXTENSION IF NOT EXISTS "uuid-ossp"');
     await queryRunner.createTable(
       new Table({
-        name: 'products',
+        name: 'product',
         columns: [
           {
             name: 'id',

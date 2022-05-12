@@ -34,6 +34,7 @@ yarn add -D @types/express @types/cors
 * ### https://typeorm.io/
 * ###  https://typeorm.io/entities
 * ### https://typeorm.io/migrations
+` typeorm migration:create -n CreateProduct ` ['Criando a Tabela de Product']
 
 ---
 * ### Instalando o postgres via docker:
