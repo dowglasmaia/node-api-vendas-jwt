@@ -34,7 +34,11 @@ yarn add -D @types/express @types/cors
 * ### https://typeorm.io/
 * ###  https://typeorm.io/entities
 * ### https://typeorm.io/migrations
-` typeorm migration:create -n CreateProduct ` ['Criando a Tabela de Product']
+` typeorm migration:create -n CreateProduct ` ['Criando a Migration para a Tabela de Product']
+
+* ### https://www.npmjs.com/package/celebrate - [`validando os dados de entrada`]
+`  npm i celebrate --save  |  yarn add -D @types/joi`
+
 
 ---
 * ### Instalando o postgres via docker:
